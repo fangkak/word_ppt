@@ -1,0 +1,10 @@
+safety_goals:
+  - id: ACC-SAFE-001
+    hazard: 跟车距离过近
+    asil: B
+    safety_goal: 系统必须保持最小安全距离
+
+technical_requirements:
+  - id: ACC-TSR-001
+    from_goal: ACC-SAFE-001
+    description: 当前车距小于最小阈值时必须减速

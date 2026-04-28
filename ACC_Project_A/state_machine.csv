@@ -1,0 +1,7 @@
+from,to,condition
+OFF,STANDBY,PowerOn
+STANDBY,ACTIVE,ACC_Enable
+ACTIVE,FOLLOW,TargetDetected
+FOLLOW,ACTIVE,TargetLost
+ACTIVE,OVERRIDE,BrakeApplied
+OVERRIDE,STANDBY,Resume

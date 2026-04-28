@@ -1,0 +1,12 @@
+functions:
+  - id: ACC-FUN-001
+    name: 跟车功能
+    description: 系统根据前车距离和相对速度自动调节本车速度
+    related_states: [FOLLOW]
+    related_signals: [ACC_SPD_REQ, TARGET_DIST]
+
+  - id: ACC-FUN-002
+    name: 设定车速
+    description: 驾驶员可设定期望巡航车速
+    related_states: [ACTIVE]
+    related_signals: [SET_SPEED]

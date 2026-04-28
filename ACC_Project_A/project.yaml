@@ -1,0 +1,9 @@
+project_name: ACC_Project_A
+vehicle_platform: EV_Motorcycle_Platform_X
+customer: OEM_A
+author: ZhangSan
+version: 1.0
+date: 2026-01-10
+description: >
+  电动摩托车平台 ACC 功能需求项目，
+  基于毫米波雷达 + 摄像头实现自适应巡航。
